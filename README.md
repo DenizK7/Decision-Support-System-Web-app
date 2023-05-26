@@ -12,6 +12,14 @@ If you select a file with the `.arff` extension and click the train button, the 
 
 Once you have a trained model, you can enter data according to the dataset and use the predict button to make predictions and see the results. If you upload a pre-trained `.model` file, you can skip the training step and directly use the predict button to make predictions.
 
+![gif1](https://github.com/DenizK7/Decision-Support-System-Web-app/assets/74663177/a3e41141-c3ab-4b57-90ac-7a1908cdaf03)
+Uploading File and select arff file to train.
+![gif_2](https://github.com/DenizK7/Decision-Support-System-Web-app/assets/74663177/f896d274-dcc2-43d0-a365-3654f1aec099)
+Select both .model and .arff file. With these 2 files, there is no need for training, it can be directly switch to estimation.
+![gif_3](https://github.com/DenizK7/Decision-Support-System-Web-app/assets/74663177/fdcadc1c-e9a7-41c8-b67b-1f13edfa0a0c)
+Prediction process with categorical dataset
+![last](https://github.com/DenizK7/Decision-Support-System-Web-app/assets/74663177/9de6a21e-958e-43fa-9e04-7b016cb78182)
+Prediction process mixed dataset
 ## Technologies Used
 
 This web app was built using the following technologies:

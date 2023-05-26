@@ -1,0 +1,60 @@
+.selected-files {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 100px; /* set a minimum height */
+    max-height: 200px;
+    overflow-y: auto;
+    display: flex; /* use flexbox */
+    flex-direction: column;
+  }
+  
+  .selected-files ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1; /* flex-grow to fill available space */
+  }
+  
+  
+  .selected-files li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .selected-files li .file-name {
+    margin-left: 10px;
+  }
+  
+  .selected-files li .file-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .selected-files li .file-actions button {
+    margin-left: 10px;
+  }
+  .selected-files li .file-actions button {
+    margin-left: 10px;
+    background-color: #ccc;
+  }
+  .selected-files .card-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .selected-files .card-body {
+    margin-top: 40px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  .tables{
+    margin: 1rem;
+    overflow-y: scroll;
+    max-height: 200px;
+  }
